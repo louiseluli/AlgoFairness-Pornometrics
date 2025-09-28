@@ -27,3 +27,6 @@ trainer_state.json
 **/interactive/**
 *.html
 *.json
+metrics/
+__pycache__/
+*gold_labels_*
