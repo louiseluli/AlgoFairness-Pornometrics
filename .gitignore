@@ -30,3 +30,37 @@ trainer_state.json
 metrics/
 __pycache__/
 *gold_labels_*
+.env
+.env.*
+config/*.env
+*.key
+*.secret
+secrets.*
+# env / caches
+.venv/
+venv/
+**/.ipynb_checkpoints/
+.DS_Store
+
+# big / private
+models/
+*.pt
+*.safetensors
+*.ckpt
+*.bin
+*.joblib
+*.parquet
+*.db
+*.sqlite
+*.key
+*.secret
+secrets.*
+.env
+.env.*
+config/*.env
+
+# predictions & self-checks
+*test_predictions*
+*val_predictions*
+*_selfcheck.*
+*gold_labels_*
