@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering
+\caption{Fairness–Accuracy trade-off across baseline and mitigation strategies (Test split).}
+\label{tab:mitigation-effectiveness}
+\begin{tabular}{llll}
+\toprule
+ & Test Accuracy & Accuracy Δ (vs White) [Black Women] & TPR Δ (vs White) [Black Women] \\
+Model &  &  &  \\
+\midrule
+Baseline RF & 0.805 & -0.126 & 0.095 \\
+In-Processing (EG, DP) & 0.743 & -0.047 & -0.194 \\
+Post-Processing (Threshold) & 0.783 & -0.072 & -0.105 \\
+Reweighed RF & 0.862 & -0.107 & 0.053 \\
+\bottomrule
+\end{tabular}
+
+\end{table}

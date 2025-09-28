@@ -1,0 +1,5 @@
+Technique,Original Domain,Original Performance,Our Domain Performance,Degradation
+Adversarial Debiasing,UCI Adult,15.00%,n/a,n/a
+Fair Representation,COMPAS,22.00%,n/a,n/a
+Reweighting,German Credit,18.00%,n/a,n/a
+Post-processing,Healthcare,31.00%,n/a,n/a

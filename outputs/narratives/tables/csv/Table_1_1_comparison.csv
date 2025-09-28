@@ -1,0 +1,5 @@
+Study,Domain,Scale,Multi-label,Intersectional,Mitigation,Accuracy Trade-off
+Buolamwini & Gebru (2018),Face recognition,"1,270",No,Yes,No,N/A
+Chouldechova (2017),Criminal justice (recidivism),"≈7,000",No,No,Analysis,Discussed
+Beutel et al. (2019),Recommendation ranking (YouTube),Large prod.,Implicit,Partial,Yes (pairwise),Reported
+This Work,Adult content categorisation,n/a,Yes,Yes,Yes (hybrid),n/a

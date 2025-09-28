@@ -1,0 +1,5 @@
+Domain,Scale,Labels,Groups,Metric,Mitigation,Trade-off,Validation
+Face Recognition,"1,270 images",Single (gender),Binary + skin tone,Accuracy disparity,None (audit only),N/A,Static test set
+Healthcare,"50,000 patients",Single (risk),Race (2 groups),Calibration,Threshold adj.,-5% accuracy,Temporal
+Social Media,100K posts,Multi (3.2 avg),Gender (binary),F1 disparity,Reweighting,-12% accuracy,Cross-platform
+Adult Content,n/a,Multi,intersectional,Novel: CADP,Hybrid adversarial,n/a,Temporal + A/B

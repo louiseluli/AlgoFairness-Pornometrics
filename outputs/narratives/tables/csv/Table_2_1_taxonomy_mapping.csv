@@ -1,0 +1,8 @@
+Bias Type,General Definition,Our Domain Manifestation,Prevalence
+Statistical,Systematic deviation from true values,n/a error increase (minority vs min group),n/a
+Historical,Past discrimination in data,"Racialized labels (e.g., 'Ebony') encode colonial hierarchies",Severe
+Representation,Group undersampling,Black women: n/a,n/a
+Measurement,Differential data quality,n/a,n/a
+Aggregation,One-size-fits-all models,n/a,n/a
+Evaluation,Inappropriate benchmarks,n/a,n/a
+Deployment,Training–deployment mismatch,n/a,n/a

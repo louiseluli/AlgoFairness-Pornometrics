@@ -1,0 +1,29 @@
+# Bytecode / caches
+**/__pycache__/
+*.pyc
+
+# Large raw data & DBs
+data/
+*.db
+*.parquet
+
+# Model artifacts & checkpoints
+outputs/models/**
+*.joblib
+*.safetensors
+*.pt
+training_args.bin
+trainer_state.json
+
+# Self-check mirrors
+*_selfcheck.*
+
+# Big predictions & eval dumps
+*_predictions_*
+*test_predictions*
+*val_predictions*
+
+# Interactive exports and heavy web artifacts
+**/interactive/**
+*.html
+*.json

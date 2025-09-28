@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\centering
+\caption{Ratings: Group vs White Women (Mann–Whitney U; FDR-corrected).}
+\label{tab:05-bias-ratings}
+\begin{tabular}{llllllllllllllllll}
+\toprule
+ & Privileged & N\_group & N\_priv & Mean\_group & Mean\_priv & Median\_group & Median\_priv & MWU\_U & p\_value & Cliffs\_delta & Cohens\_d & MedianDiff(group-priv) & CI\_low & CI\_high & p\_fdr & reject@0.05FDR & sig \\
+Group &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  &  \\
+\midrule
+All Men & White Women & 443458 & 3455 & 67.300 & 64.900 & 80.000 & 82.900 & 743162558 & 0.002 & -0.030 & 0.069 & -2.927 & -3.333 & -2.036 & 0.006 & True & ** \\
+Asian Women & White Women & 2933 & 3455 & 58.900 & 64.900 & 78.400 & 82.900 & 4844028 & 0.002 & -0.044 & -0.149 & -4.572 & -6.166 & -2.724 & 0.006 & True & ** \\
+Black Women & White Women & 4360 & 3455 & 68.600 & 64.900 & 83.300 & 82.900 & 7717388 & 0.059 & 0.025 & 0.100 & 0.406 & -0.705 & 1.444 & 0.099 & False & ns \\
+Latina Women & White Women & 1218 & 3455 & 66.900 & 64.900 & 83.700 & 82.900 & 2163134 & 0.141 & 0.028 & 0.053 & 0.803 & -0.980 & 2.788 & 0.176 & False & ns \\
+All Women & White Women & 91778 & 3455 & 66.600 & 64.900 & 82.100 & 82.900 & 158847603 & 0.848 & 0.002 & 0.046 & -0.852 & -1.449 & 0.133 & 0.848 & False & ns \\
+\bottomrule
+\end{tabular}
+
+\begin{tablenotes}[flushleft]
+\item \small{Effect sizes include Cliff's δ and Cohen's d. CI is bootstrap for median difference.}
+\end{tablenotes}
+\end{table}

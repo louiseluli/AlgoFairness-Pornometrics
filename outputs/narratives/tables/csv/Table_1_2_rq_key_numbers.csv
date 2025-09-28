@@ -1,0 +1,6 @@
+Research Question,Key Metric,Finding,Chapter
+RQ1: What biases exist?,PMI (Pointwise Mutual Information),Degrading tags are 8.3x more likely to be associated with Black women.,4
+RQ2: Do models amplify bias?,TPR Disparity (vs. White Women),Baseline model shows a 37.9 percentage point lower True Positive Rate for Asian women.,5
+RQ3: How to quantify bias?,Equal Opportunity Difference,Pareto analysis reveals that no single model can simultaneously optimize all fairness metrics.,6
+RQ4: How to mitigate bias?,Disparity Reduction vs. Accuracy,A reweighing strategy reduces the max fairness gap by 47% while retaining 92% of baseline accuracy.,6
+RQ5: What are the impacts?,Conditional View Disparity,"After controlling for quality, videos with Black creators receive 34% fewer daily views.",4
